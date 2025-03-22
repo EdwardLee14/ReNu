@@ -1,5 +1,4 @@
 import React from 'react'
-import Login from './Login'
 
 const Home = () => {
     return (
@@ -22,15 +21,19 @@ const Home = () => {
                         Shop Now
                     </button>
                 </div>
+
+                {/* Add this div below the button */}
+                <div className='bg-white mt-6 p-6'>
+                    <h2 className='text-2xl font-bold'>50-70%</h2>
+                    <p>Average savings on all products</p>
+                </div>
             </div>
+            
             <div className='ml-40 w-160'>
                 <img
                     src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRobHQzMWY0cHJsY2hvcHJhY2F0Z3VndHFrZmM0Z25ydGdrYTRrbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbYn4oHxydD5oqXa7g/giphy.gif"
                     alt="Produce GIF"
                 />
-            </div>
-            <div>
-
             </div>
         </div>
     )

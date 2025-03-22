@@ -40,6 +40,17 @@ const Layout = () => {
                 Cart
               </Link>
             </li>
+            <li>
+              <Link
+                to="/login"
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                }}
+                className="hover:text-gray-400 transition duration-300 ease-in-out text-xl"
+              >
+                Login
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
