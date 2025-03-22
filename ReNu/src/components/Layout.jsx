@@ -43,7 +43,7 @@ const Layout = () => {
           </ul>
         </div>
       </nav>
-      <div className="mt-16">
+      <div>
         <Outlet />
       </div>
     </>
