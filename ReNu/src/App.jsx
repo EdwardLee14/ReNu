@@ -5,6 +5,7 @@ import Layout from "./components/Layout"
 import Home from "./pages/Home"
 import Map from "./pages/Map"
 import Cart from "./pages/Cart"
+import Profile from "./pages/Profile"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="map" element={<Map />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>
