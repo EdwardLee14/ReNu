@@ -5,7 +5,7 @@ const Layout = () => {
     <>
       <nav>
         <ul>
-          <li>
+          <li className="flex flex-row list-none">
             <Link to="/">Home</Link>
           </li>
           <li>

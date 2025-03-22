@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@material-tailwind/react": "^2.1.10",
     "@tailwindcss/postcss": "^4.0.15",
     "@tailwindcss/vite": "^4.0.15",
     "0g": "^0.4.2",
