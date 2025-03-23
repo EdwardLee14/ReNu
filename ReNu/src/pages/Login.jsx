@@ -46,7 +46,13 @@ function Login() {
       <div className="w-3/5 flex flex-col items-center justify-center text-center gap-6 px-8">
         {user ? (
           <>
-            <h2 className="text-3xl font-semibold">👋 Welcome, {user.displayName}!</h2>
+            <h2 className="text-3xl font-semibold">👋 Welcome back, {user.displayName}!</h2>
+            <div>
+              <h1 className="text-xl">By choosing second-hand goods, you've helped save:</h1>
+              <h3 className="text-lg font-medium">
+                Approximately <span className="text-4xl font-bold text-green-700">30</span> kg of CO2 emissions
+              </h3>
+            </div>
             <button
               onClick={handleLogout}
               className="px-5 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition"
@@ -72,3 +78,4 @@ function Login() {
 
 
 export default Login;
+
