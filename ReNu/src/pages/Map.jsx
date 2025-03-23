@@ -7,9 +7,9 @@ const containerStyle = {
 };
 
 const center = {
-  // Seattle Lat, Lng 
-  lat: 47.608013,
-  lng: -122.335167,
+  // BCG - Toronto
+  lat: 43.64411,
+  lng: -79.37704,
 };
 
 const Map = () => {
