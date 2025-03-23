@@ -18,6 +18,8 @@ const Layout = () => {
                 ReNu
               </Link>
             </li>
+          </ul>
+          <ul className="flex space-x-6 text-gray-800 font-sans ml-auto">
             <li>
               <Link
                 to="/map"
@@ -27,17 +29,6 @@ const Layout = () => {
                 className="hover:text-gray-400 transition duration-300 ease-in-out text-xl"
               >
                 Map
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/cart"
-                style={{
-                  fontFamily: 'Inter, sans-serif',
-                }}
-                className="hover:text-gray-400 transition duration-300 ease-in-out text-xl"
-              >
-                Cart
               </Link>
             </li>
             <li>
