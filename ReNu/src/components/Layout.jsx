@@ -39,7 +39,7 @@ const Layout = () => {
                 }}
                 className="hover:text-gray-400 transition duration-300 ease-in-out text-xl"
               >
-                Login
+                Profile
               </Link>
             </li>
           </ul>
